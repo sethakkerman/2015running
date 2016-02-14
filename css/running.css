@@ -122,7 +122,7 @@ cite { font-style:normal; }
  04 Basic Layout
 =========================
 */
-div.image_wrapper { width:100%; max-width: 1500px; padding:0em; margin-top:0em; height:auto; margin: 0 auto; }
+div.image_wrapper { width:100%; max-width: 1250px; padding:0em; margin-top:0em; height:auto; margin: 0 auto; }
 img { max-width:100%; display:block; }
 
 /*
@@ -146,5 +146,9 @@ img { max-width:100%; display:block; }
 /* 06b- 900 up */
 @media screen and (min-width:900px) {
 
+}
+
+@media screen and (min-width:1500px) {
+	div.image_wrapper { max-width: 1500px; }
 }
 
