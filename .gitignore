@@ -1,9 +1,5 @@
 # Other Folders #
-
-# SCSSC #
-*.scssc
-assets/styles/.sass-cache/
-assets/styles/.sass-cache/*
+working_files/
 
 # Packages #
 .dmg
